@@ -1,0 +1,57 @@
+# Model weights and checkpoints
+*.pkl
+*.keras
+*.pth
+*.pt
+*.h5
+*.ckpt
+
+# Weight folders
+weights/
+checkpoints/
+
+# Large data files
+*.lmdb
+*.mdb
+
+# Datasets (download from Kaggle/HuggingFace instead)
+data/
+instagram-images-with-captions/
+flickr30k/
+coco2017/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs and outputs
+*.log
+runs/
+outputs/
